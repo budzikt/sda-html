@@ -1,0 +1,19 @@
+.text-czerwony {
+  color: red
+}
+
+.text-zielony {
+  color: green
+}
+
+.ramka {
+  border: solid;
+}
+
+.ramka-czerwona {
+  border-color: red
+}
+
+.ramka-zielona {
+  border-color: red
+}
