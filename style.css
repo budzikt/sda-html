@@ -3,12 +3,11 @@ div {
 }
 
 div.short {
-  width: 10%;
+  width: 250px;
 }
 div.long {
-  width: 30%;
+  width: 400px;
 }
-
 div.red {
   background-color: red
 }
