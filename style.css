@@ -1,0 +1,18 @@
+div.inline-div {
+  display: inline-block;
+}
+
+div.red {
+  background-color: red
+}
+div.green {
+  background-color: green
+}
+div.blue {
+  background-color: blue
+}
+
+div.sized {
+  height: 120px; 
+  width: 250px;
+}
