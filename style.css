@@ -1,0 +1,23 @@
+div {
+  height: 120px;
+}
+
+div.short {
+  width: 10%;
+}
+div.long {
+  width: 30%;
+}
+
+div.red {
+  background-color: red
+}
+div.green {
+  background-color: green
+}
+div.blue {
+  background-color: blue
+}
+div.yellow {
+  background-color: yellowgreen
+}
