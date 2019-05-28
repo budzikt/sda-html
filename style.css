@@ -1,0 +1,18 @@
+div.sized {
+  width: 30%;
+  height: 150px;
+  background-color: forestgreen;
+  padding: 1em;
+  margin: 1em;
+  text-align: center
+}
+
+div.r {
+  background-color: red
+}
+div.g {
+  background-color: green
+}
+div.b {
+  background-color: blue
+}

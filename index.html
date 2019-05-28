@@ -3,11 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>title</title>
-	<link rel="icon" href="favico.ico">
+	  <link rel="icon" href="favico.ico">
     <link rel="stylesheet" href="style.css">
-    <script src="logger.js"></script>
+    <script src="logger.js" defer></script>
   </head>
   <body>
-    Super duper
+
+    <div class="">
+        <button id="display-none">Display: none</button>
+        <div class="sized r"></div>
+        <div class="sized g" id="divDisplay"> Ja zniknę: display none</div>
+        <div class="sized b"></div>
+      </div>
+
+    <div class="">
+      <button id="hidden">Hidden</button>
+      <div class="sized r"></div>
+      <div class="sized g" id="divHidden"> Ja zniknę: visibility: hidden</div>
+      <div class="sized b"></div>
+    </div>
   </body>
 </html>
