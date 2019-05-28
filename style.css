@@ -2,9 +2,16 @@ div.sized {
   width: 25%;
   height: 150px;
   background-color: burlywood;
-  border: 2px;
+  border: solid 2px;
   border-color: blueviolet;
   text-align: center;
+}
+
+div.inner {
+  width: 25%;
+  height: 25%;
+  margin: auto auto;
+  background-color: brown
 }
 
 div.static {
@@ -23,8 +30,8 @@ div.fixed {
 
 div.absolute {
   position: absolute;
-  right: 30px;
-  top: 60px;
+  left: 80px;
+  top: 70px;
 }
 
 div.bg {
