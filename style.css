@@ -1,11 +1,12 @@
-div {
+div>div {
   height: 120px;
 }
 
-div.short {
+div>div.short {
   width: 250px;
 }
-div.long {
+
+div>div.long {
   width: 400px;
 }
 div.red {
