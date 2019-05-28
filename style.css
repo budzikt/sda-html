@@ -1,0 +1,23 @@
+div.sized {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 1em 1em;
+}
+
+div.parent {
+  max-height: 500px;
+  background-color: lightblue;
+  /* overflow: scroll; */
+  /* overflow: hidden; */
+}
+
+.r {
+  background-color: red 
+}
+.g {
+  background-color: green 
+}
+.b {
+  background-color: blue 
+}
