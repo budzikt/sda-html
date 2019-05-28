@@ -1,0 +1,24 @@
+.dlugi {
+  height: 500px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5em;
+  margin-bottom: 1em
+}
+
+.blue {
+  background-color: aqua
+}
+
+.red {
+  background-color: red
+}
+
+div.menu {
+  position: fixed;
+}
+
+.menu-item {
+  display: block;
+}
