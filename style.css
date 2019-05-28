@@ -1,0 +1,14 @@
+div.media-row {
+  width: 80%;
+  height: 250px;
+  margin: 1em auto;
+  border-radius: 25px;
+  border: 2px solid rgb(136, 127, 127);
+  text-align: center;
+}
+
+video {
+  width: 70%;
+  height: 60%;
+  margin-top: 1em
+}
