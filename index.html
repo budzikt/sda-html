@@ -5,9 +5,28 @@
     <title>title</title>
 	<link rel="icon" href="favico.ico">
     <link rel="stylesheet" href="style.css">
-    <script src="logger.js"></script>
+    <script src="logger.js" defer></script>
   </head>
   <body>
-    Super duper
+    <div class="container">
+      <div class="inner" id="innerDiv">
+        <p>Tekst</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="control-box">
+        <div class="control-box-dim">
+          <input type="range" min="0" max="25" value="0" class="slider" id="marginLR">
+          <input type="range" min="0" max="25" value="0" class="slider" id="marginUD">
+        </div>
+      </div>
+      <div class="control-box">
+        <div class="control-box-dim">
+          <input type="range" min="0" max="25" value="0" class="slider" id="paddingR">
+          <input type="range" min="0" max="25" value="0" class="slider" id="paddingUD">
+        </div>
+      </div>
+    </div>
   </body>
 </html>
