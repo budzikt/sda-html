@@ -13,12 +13,13 @@ document.getElementById('guzik')
   el.style.border = 'solid';
   el.style.borderColor  = 'red';
   el.style.textAlign = el.style.textAlign === 'left' ? 'right' : 'left'
-
-  let childs = el.childElementCount;
-
+  
   if(el.firstElementChild.tagName !== 'BUTTON') {
     el.firstElementChild.remove();
   }
+
+    let childs = el.childElementCount;
+    console.log(el.childElementCount)
 
   el.title = `Mały zielony prostokąt z ${childs} dziećmi`
 })
