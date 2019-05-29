@@ -5,8 +5,10 @@ function appendDiv() {
   let txt = document.getElementById('txt').value;
 
   let child = document.createElement('div')
+  let childChild = document.createElement('p')
+  childChild.innerHTML = txt;
+  child.appendChild(childChild);
   child.classList.add('sized', 'r');
-  child.innerHTML = txt;
 
   container.appendChild(child);
 }

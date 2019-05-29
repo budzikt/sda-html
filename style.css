@@ -3,12 +3,25 @@ div.sized {
   width: 50px;
   height: 50px;
   margin: 1em 1em;
+  border-radius: 1em;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+div.sized p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
 }
 
 div.parent {
-  max-height: 500px;
+  min-height: 300px;
+  max-height: 400px;
   background-color: lightblue;
-  /* overflow: scroll; */
+  overflow-x: hidden;
+  overflow-y: auto;
   /* overflow: hidden; */
 }
 
