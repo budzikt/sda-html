@@ -8,7 +8,7 @@
     <script src="logger.js"></script>
   </head>
   <body>
-      <form method="post">
+      <form action="">
         <div>
           <label for="name">Imię:</label>
           <input type="text" id="name" name="name">
@@ -29,7 +29,7 @@
         </div>
       </form>
 
-      <form>
+      <form action="">
           <label for="skille">Wybierz ulubiony język:</label>
           <input list="jezyki-lista" id="skille" name="skille_name" />
           
@@ -38,9 +38,13 @@
               <option value="C#">
               <option value="JavaScript">
           </datalist>
+
+          <div class="button">
+            <button type="submit">Wyślij</button>
+        </div>
       </form>
 
-      <form>
+      <form action="">
         <p>Jakie lubisz ziemniaczki?</p>
         <div>
           <input type="radio" id="gotowaneId"
