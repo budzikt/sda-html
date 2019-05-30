@@ -1,0 +1,66 @@
+div.sized {
+  width: 100px;
+  height: 100px;
+}
+
+div .sized {
+  margin: 1em;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.sized.r:hover {
+  background-color: rgb(78, 3, 19);
+  color: white;
+  transform: scale(0.9);
+}
+
+button:active {
+  color: red;
+  transform: scale(1.2);
+}
+
+.sized.g:hover {
+  background-color: #09460b;
+  color: white;
+  transform: scale(1.1);
+  animation-name: wiggle;
+  animation-duration: 1s;
+  animation-iteration-count: 1
+}
+
+.r {
+  background-color: red
+}
+
+.g {
+  background-color: green
+}
+
+.content-wrap {
+  width: 80%;
+  margin: 0 auto
+}
+
+.txt p:first-child {
+  color: aqua;
+  background-color: yellow;
+}
+
+.txt p:last-child {
+  color: yellow;
+  background-color: aqua;
+}
+
+.txt p:nth-child(4) {
+  color: red;
+  background-color: gray;
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(10deg);}
+  25% {transform: rotate(-10deg);}
+  50% {transform: rotate(20deg);}
+  75% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
