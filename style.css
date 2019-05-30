@@ -10,7 +10,7 @@ form div + div {
 }
 label {
   display: inline-block;
-  width: 90px;
+  width: auto;
   text-align: right;
 }
 input, textarea {
@@ -31,4 +31,8 @@ textarea {
 }
 button {
   margin-left: .5em;
+}
+
+input[type="radio"] {
+  width: 25px
 }
