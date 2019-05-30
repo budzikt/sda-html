@@ -1,0 +1,34 @@
+
+.sized {
+  width: 100px;
+  height: 100px;
+}
+
+div.full {
+  border-top-width: 1em;
+  border-right-width: 2em;
+  border-bottom-width: 3em;
+  border-left-width: 4em;
+}
+
+div.combined {
+  border-width: 1em 2em 3em 4em
+}
+
+div.top-sides-bottom {
+  border-width: 1em 2em 4em
+}
+
+div.hor-ver {
+  border-width: 1em 2em
+}
+
+div.all {
+  border-width: 2em
+}
+
+div {
+  margin-top: 1em;
+  border-color: red;
+  border-style: solid
+}
