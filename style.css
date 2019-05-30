@@ -8,10 +8,17 @@ div.container {
 }
 
 div.inner {
-  position: absolute;
-  background-color: red;
+  /* position: absolute; */
   width: 80px;
   height: 80px;
+}
+
+div.absolute {
+  position: absolute;
+}
+
+.r {
+  background-color: red;
 }
 
 .slider {
