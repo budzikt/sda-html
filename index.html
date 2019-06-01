@@ -5,9 +5,23 @@
     <title>title</title>
 	<link rel="icon" href="favico.ico">
     <link rel="stylesheet" href="style.css">
-    <script src="logger.js"></script>
+    <script src="logger.js" defer></script>
   </head>
   <body>
-    Super duper
+    <form>
+      <label for="txt">Treść</label>
+      <textarea id="txt"></textarea>
+    </form>
+    <button id="guzik">Dodaj komentarz</button>
+    <div id="comments" class="comments">
+    </div>
+
+    <form>
+      <label for="txt2">Treść</label>
+      <textarea id="txt2"></textarea>
+    </form>
+    <button id="guzik2">Dodaj komentarz</button>
+    <div id="comments2" class="comments2">
+    </div>
   </body>
 </html>
