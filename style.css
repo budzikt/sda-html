@@ -36,3 +36,11 @@ button {
 input[type="radio"] {
   width: 25px
 }
+
+form input:valid {
+  background-color: lightgreen
+}
+
+form input:invalid {
+  background-color: lightpink
+}

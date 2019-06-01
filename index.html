@@ -11,15 +11,23 @@
       <form action="">
         <div>
           <label for="name">Imię:</label>
-          <input type="text" id="name" name="name">
+          <input type="text" id="name" name="name" required minlength="6">
         </div>
         <div>
           <label for="mail">E-mail:</label>
-          <input type="email" id="mail" name="mail">
+          <input type="email" id="mail" name="mail" required>
+        </div>
+        <div>
+          <label for="city">Wolisz Sosnowiec czy Łódź?:</label>
+          <input type="text" id="city" name="city" required pattern="Sosnowiec|Łódź">
+        </div>
+        <div>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="mail" required>
         </div>
         <div>
           <label for="msg">Wiadomość:</label>
-          <textarea id="msg" name="message"></textarea>
+          <textarea id="msg" name="message" maxlength="50"></textarea>
         </div>
         <div class="button">
             <button type="submit">Wyślij</button>
@@ -28,41 +36,5 @@
             <button type="reset">Kasuj</button>
         </div>
       </form>
-
-      <form action="">
-          <label for="skille">Wybierz ulubiony język:</label>
-          <input list="jezyki-lista" id="skille" name="skille_name" />
-          
-          <datalist id="jezyki-lista">
-              <option value="Java">
-              <option value="C#">
-              <option value="JavaScript">
-          </datalist>
-
-          <div class="button">
-            <button type="submit">Wyślij</button>
-        </div>
-      </form>
-
-      <form action="">
-        <p>Jakie lubisz ziemniaczki?</p>
-        <div>
-          <input type="radio" id="gotowaneId"
-           name="ziemniaki" value="gotowane">
-          <label for="gotowaneId">Gotowane</label>
-      
-          <input type="radio" id="smazoneId"
-           name="ziemniaki" value="smazone">
-          <label for="contactChoice2">Smażone</label>
-      
-          <input type="radio" id="mundurkiId"
-           name="ziemniaki" value="gotowane">
-          <label for="contactChoice3">W mundurkach</label>
-        </div>
-        <div>
-          <button type="submit">Wyślij</button>
-        </div>
-      </form>
-
   </body>
 </html>
