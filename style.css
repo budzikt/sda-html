@@ -1,0 +1,43 @@
+div.header div.img {
+  display: inline-block;
+  width: 30%;
+  margin-right: 1em;
+}
+
+div.img img {
+  width: 100%;
+}
+
+div.header-txt {
+  display: inline-block;
+  width: 60%;
+  height: 460px;
+}
+
+div.wrapper.header {
+  height: 300px;
+  margin: 1em 0 1em;
+}
+
+div.wrapper.nav {
+  width: 80%;
+  margin: 1em auto 1em
+}
+
+div.wrapper.nav ul {
+  width: 80%;
+  margin: auto
+}
+
+ul.navigation li {
+  display: inline;
+}
+
+div.article-img {
+  width: 400px;
+}
+div.article-img img{
+  width: 100%;
+}
+
+
