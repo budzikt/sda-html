@@ -1,43 +1,33 @@
-div.header div.img {
+div#main-container {
+  width: 95%;
+  background-color: rgb(196, 224, 202);
+  border-radius: 30px;
+  border: solid 2px green;
+  margin: 1em auto
+}
+
+div.container {
+  margin: 1em;
+}
+
+div.container-inline div {
   display: inline-block;
-  width: 30%;
-  margin-right: 1em;
 }
 
-div.img img {
+div.image-medium {
+  width: 40%;
+  height: auto;
+  margin: 1em;
+  padding: 5%;
+}
+
+.image-rounded img{
+  border-radius: 30px;
   width: 100%;
+  height: auto;
 }
 
-div.header-txt {
-  display: inline-block;
-  width: 60%;
-  height: 460px;
+div.text-medium {
+  width: 40%;
+  height: auto;
 }
-
-div.wrapper.header {
-  height: 300px;
-  margin: 1em 0 1em;
-}
-
-div.wrapper.nav {
-  width: 80%;
-  margin: 1em auto 1em
-}
-
-div.wrapper.nav ul {
-  width: 80%;
-  margin: auto
-}
-
-ul.navigation li {
-  display: inline;
-}
-
-div.article-img {
-  width: 400px;
-}
-div.article-img img{
-  width: 100%;
-}
-
-

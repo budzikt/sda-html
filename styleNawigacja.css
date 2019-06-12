@@ -1,0 +1,12 @@
+#nav {
+  width: 95%;
+  background-color: rgb(119, 181, 218);
+  border-radius: 30px;
+  border: solid 2px rgb(10, 103, 180);
+  margin: 1em auto
+}
+
+li.menu-item {
+  display: inline;
+  margin-left: 1em;
+}
