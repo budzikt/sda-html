@@ -1,15 +1,14 @@
-
 let o = {
   a: 60
 }
 
 let o2 = {
-  a: 120
+  a: 120,
 }
 
 function wypisz() {
   console.log(this.a);
-  return this.a
+  return this.a;
 }
 
 o.f = wypisz;
