@@ -9,7 +9,8 @@ function dodajDo(baza) {
 }
 
 let dodajDo10 = dodajDo(10);
-console.log(dodajDo10(5));
-
 let dodajDo25 = dodajDo(25);
+
+
+console.log(dodajDo10(5));
 console.log(dodajDo25(5));
