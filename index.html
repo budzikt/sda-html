@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styleNaglowek.css">
     <link rel="stylesheet" href="styleNawigacja.css">
     <link rel="stylesheet" href="stylArtykul.css">
+    <link rel="stylesheet" href="styleForm.css">
     <script src="logger.js" defer></script>
   </head>
   <body>
@@ -80,25 +81,53 @@
         </div>
       </div>
 
-      <!-- Formularz -->
-      <div>
-        <form action="">
-          <div>
-            <label for=""></label><input type="text">
-          </div>
-          <div>
-            <label for=""></label><input type="text">
-          </div>
-          <div>
-            <label for=""></label><input type="text">
-          </div>
-          <div>
-            <label for=""></label><input type="text">
-          </div>
-          <div>
-            <label for=""></label><input type="text">
-          </div>
-        </form>
+      <div id="formularz" class="container container-inline">
+        <div class="">
+          <form action="">
+            <div>
+              <label for="nickId">Twój nick</label>
+              <input type="text" id="nickId">
+            </div>
+            <div>
+              <label for="emailId">Email</label>
+              <input type="email" id="emailId">
+            </div>
+            <div>
+              <label for="selectId">Wybierz karmę</label>
+              <select name="karma" id="selectId">
+                <option value="karma1">Karma 1</option>
+                <option value="karma2">Karma 2</option>
+                <option value="karma3">Karma 3</option>
+              </select>
+            </div>
+            <div>
+              <label for="1id">1</label>
+              <input id="1id" type="radio" name="ocena" value="1" checked>
+              <label for="2id">2</label>
+              <input id="2id" type="radio" name="ocena" value="2" checked>
+              <label for="3id">3</label>
+              <input id="3id" type="radio" name="ocena" value="3" checked>
+              <label for="4id">4</label>
+              <input id="4id" type="radio" name="ocena" value="4" checked>
+              <label for="5id">5</label>
+              <input id="5id" type="radio" name="ocena" value="5" checked>
+            </div>
+            <div>
+              <label for=""></label>
+              <textarea rows="4" cols="50">
+                Komentarz...
+              </textarea>
+            </div>
+            <div class="">
+              <button type="submit">Wyślij</button>
+              <button type="reset">Wyczyść</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div id="comments" class="">
+
       </div>
     </div>
 

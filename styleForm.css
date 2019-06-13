@@ -1,0 +1,12 @@
+#formularz div {
+  display: block;
+}
+
+#formularz {
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgb(226, 190, 221);
+  border-radius: 30px;
+  border: solid 2px rgb(201, 97, 123);
+}
