@@ -1,0 +1,36 @@
+
+div.poster * {
+  display: inline-block;
+}
+
+#comments {
+  width: 60%;
+  background-color: rgb(224, 213, 176);
+  border-radius: 30px;
+  border: solid 2px rgb(175, 149, 33);
+  margin: 1em auto;
+  padding: 1em
+}
+
+#comments .ocena>.ocena-wrapper {
+  display: inline-block;
+  margin: 0.25em;
+  padding: 0.25em;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+#comments .ocena>h5 {
+  display: inline-block;
+  }
+
+#comments .ocena>.ocena-wrapper p {
+margin: 0;
+}
+
+#comments div.karma {
+  display: block;
+}

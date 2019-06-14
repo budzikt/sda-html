@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styleNawigacja.css">
     <link rel="stylesheet" href="stylArtykul.css">
     <link rel="stylesheet" href="styleForm.css">
+    <link rel="stylesheet" href="styleCommenys.css">
     <script src="logger.js" defer></script>
   </head>
   <body>
@@ -82,8 +83,8 @@
       </div>
 
       <div id="formularz" class="container container-inline">
-        <div class="">
-          <form action="">
+        <div class="container">
+          <form  id="commentForm" >
             <div>
               <label for="nickId">Twój nick</label>
               <input type="text" id="nickId">
@@ -126,9 +127,35 @@
         </div>
       </div>
 
-      <div id="comments" class="">
-
-      </div>
+        <div id="comments" class="container container-inline">
+            <div class="comment">
+              <div class="poster">
+                <div class="nick">
+                  <p>Arturex</p>
+                </div>
+                <div class="mail">
+                  <p>arturex@wp.pl</p>
+                </div>
+              </div>
+              <div class="ocena">
+                <h5>Ocena:</h5>
+                <div class="ocena-wrapper">
+                  <p>
+                    4
+                  </p> 
+                </div>
+              </div>
+              <div class="karma">
+                Karma 1
+              </div>
+              <div class="comment-text">
+                <h5>Treść:</h5>
+                <p>
+                  Ogólnie spoko, tylko teściowej nie smakuje
+                </p>
+              </div>
+            </div>
+          </div>
     </div>
 
   </body>
