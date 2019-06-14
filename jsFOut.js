@@ -2,8 +2,8 @@
 
 
 function dodajDo(baza) {
+  let bazaD = baza;
   return function(add) {
-    let bazaD = baza;
     return bazaD + add;
   }
 }
