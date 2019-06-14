@@ -34,3 +34,9 @@ margin: 0;
 #comments div.karma {
   display: block;
 }
+
+.comment {
+  border: 3px solid rgb(180, 159, 91);
+  margin-bottom: 1em;
+  padding-left: 1em
+}
