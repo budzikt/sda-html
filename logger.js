@@ -6,48 +6,50 @@ console.log(el);
 el.addEventListener('submit', (e) => {
   if (e.preventDefault) e.preventDefault();
 
-  let map  = {}
-  map.nick= document.getElementById('nickId').value
-  map.mail= document.getElementById('emailId').value
-  map.karma= document.getElementById('selectId').value
+  let wartosci  = {}
+  wartosci.nick= document.getElementById('nickId').value
+  wartosci.mail= document.getElementById('emailId').value
+  wartosci.karma= document.getElementById('selectId').value
   document.querySelectorAll("#formularz input[type='radio']")
   .forEach(node => {
     if (node.checked === true) {
-      map.ocena = node.value;
+      wartosci.ocena = node.value;
     }
   });
-  map.textArea = document.getElementById('comment-text-area').value;
+  wartosci.textArea = document.getElementById('comment-text-area').value;
 
   let div = document.createElement('div');
   div.classList.add('comment');
   div.innerHTML = `
   <div class="poster">
   <div class="nick">
-    <p>Arturex</p>
+    <p>${wartosci.nick}</p>
   </div>
   <div class="mail">
-    <p>arturex@wp.pl</p>
+    <p>${wartosci.mail}</p>
   </div>
 </div>
 <div class="ocena">
   <h5>Ocena:</h5>
   <div class="ocena-wrapper">
     <p>
-      4
+    ${wartosci.ocena}
     </p> 
   </div>
 </div>
 <div class="karma">
-  Karma 1
+${wartosci.karma}
 </div>
 <div class="comment-text">
   <h5>Treść:</h5>
   <p>
-    Ogólnie spoko, tylko teściowej nie smakuje
+    ${wartosci.textArea}
   </p>
 </div>
   `
   document.getElementById('comments').appendChild(div);
+
+  el.reset();
 
   return false;
 })
