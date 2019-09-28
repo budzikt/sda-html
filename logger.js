@@ -8,6 +8,7 @@ document.getElementById('guzik')
 .addEventListener('click', () => {
   let el = document.getElementById('mainDiv')
   el.style.backgroundColor = generujLosowyKolor();
+  el.style.color = generujLosowyKolor();
   el.style.height = '150px';
   el.style.width = '30%';
   el.style.border = 'solid';
@@ -16,6 +17,11 @@ document.getElementById('guzik')
   
   if(el.firstElementChild.tagName !== 'BUTTON') {
     el.firstElementChild.remove();
+  }
+  else if (el.firstElementChild.tagName === 'BUTTON') {
+    let p = document.createElement("p");
+    p.innerHTML = "Oh wow";
+    el.appendChild(p);
   }
 
     let childs = el.childElementCount;
