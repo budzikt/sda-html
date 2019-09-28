@@ -16,6 +16,7 @@ div.inner {
 
 div.static {
   position: static;
+  background-color: deepskyblue;
 }
 div.relative {
   position: relative;
@@ -26,18 +27,21 @@ div.fixed {
   position: fixed;
   left: 0;
   bottom: 0;
+  background-color: grey;
 }
 
 div.absolute {
   position: absolute;
   left: 80px;
   top: 70px;
+  background-color: khaki;
 }
 
 div.sticky {
   position: sticky;
   right: 120px;
   top: 70px;
+  background-color: slateblue;
 }
 
 div.bg {
