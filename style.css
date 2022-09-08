@@ -21,3 +21,7 @@
 .ramka-zielona {
   border-color: green
 }
+
+.ramka-wysrodkowana {
+  margin: 0 auto;
+}
