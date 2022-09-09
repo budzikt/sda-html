@@ -9,11 +9,10 @@
 	}
 }
 
-@media screen and (min-width: 600px)  {
+@media screen and (min-width: 0px) and (max-width: 299px)  {
 	.madia-depeendant {
 		background-color: aqua;
 		width: 50%;
-		transition: ease all .5s;
 	}
 }
 
@@ -25,9 +24,10 @@
 }
 
 div {
-	width: 100px;
+	width: 75%;
 	height: 100px;
 	background-color: antiquewhite;
+	transition: ease all .5s;
 }
 
 .madia-non-depeendant {
