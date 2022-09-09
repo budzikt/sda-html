@@ -44,3 +44,7 @@ form input:valid {
 form input:invalid {
   background-color: lightpink
 }
+
+/* form input:not(:focus):not(:placeholder-shown):invalid {
+  background-color: lightpink
+} */
